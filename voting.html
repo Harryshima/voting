@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting Page</title>
+    <link rel="stylesheet" href="voting.css">  
+</head>
+<body>
+
+    <div class="container">
+        <button class="toggle-sidebar">☰</button>
+        
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <h2>Election Portal</h2>
+            <nav>
+                <a href="#active-elections">Active Elections</a>
+                <a href="#upcoming-elections">Upcoming Elections</a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header>
+                <h1>College of Engineering Elections 2024-2025</h1>
+                <p>Participate in active elections or view upcoming ones.</p>
+            </header>
+
+            <!-- Active Elections Section -->
+            <section class="election-list" id="active-elections">
+                <h2>Active Elections</h2>
+
+                <div class="election-card">
+                    <div class="election-header">
+                        <img src="Images\SSG.png" alt="Election Logo" class="election-logo">
+                        <div class="header-content">
+                            <div class="election-info">
+                                <h3>SSG Council Election</h3>
+                                <p>Starts on: Sept. 25, 2024</p>
+                                <p>Ends on    : Sept. 27, 2024</p>
+                            </div>
+                            <div class="card-buttons">
+                                <button onclick="window.location.href='votedetails.html'">View Details</button>
+                                <button onclick="window.location.href='vote.html'">Cast Vote</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div class="election-card">
+                    <div class="election-header">
+                        <img src="Images\ES.png" alt="Election Logo" class="election-logo">
+                        <div class="header-content">
+                            <div class="election-info">
+                                <h3>Engineering Society Election</h3>
+                                <p>Starts on: Sept. 25, 2024</p>
+                                <p>Ends on    : Sept. 27, 2024</p>
+                            </div>
+                            <div class="card-buttons">
+                                <button onclick="window.location.href='votedetails.html'">View Details</button>
+                                <button onclick="window.location.href='vote.html'">Cast Vote</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="election-card">
+                    <div class="election-header">
+                        <img src="Images\ICPEP.png" alt="Election Logo" class="election-logo">
+                        <div class="header-content">
+                            <div class="election-info">
+                                <h3>ICPEP Election</h3>
+                                <p>Starts on: Sept. 25, 2024</p>
+                                <p>Ends on    : Sept. 27, 2024</p>
+                            </div>
+                            <div class="card-buttons">
+                                <button onclick="window.location.href='votedetails.html'">View Details</button>
+                                <button onclick="window.location.href='vote.html'">Cast Vote</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </section>
+
+            <!-- Upcoming Elections Section -->
+            <section class="election-list" id="upcoming-elections">
+                <h2>Upcoming Elections</h2>
+
+                <div class="election-card">
+                    <div class="election-header">
+                        <img src="Images\ICPEP.png" alt="Election Logo" class="election-logo">
+                        <div class="header-content">
+                            <div class="election-info">
+                                <h3>ICPEP Election</h3>
+                                <p>Starts on: Jan. 25, 2025</p>
+                            </div>
+                            <div class="card-buttons">
+                                <button onclick="window.location.href='votedetails.html'">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="election-card">
+                    <div class="election-header">
+                        <img src="Images\ICPEP.png" alt="Election Logo" class="election-logo">
+                        <div class="header-content">
+                            <div class="election-info">
+                                <h3>ICPEP Election</h3>
+                                <p>Starts on: Jan. 25, 2025</p>
+                            </div>
+                            <div class="card-buttons">
+                                <button onclick="window.location.href='votedetails.html'">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+        </main>
+    </div>
+
+    <script src="voting.js"></script>
+</body>
+</html>
+
